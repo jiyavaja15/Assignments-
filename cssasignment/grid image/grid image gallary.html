@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        margin-left: 300px;
+      }
+      h1 {
+        margin-left: 200px;
+      }
+      .main01 {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        gap: 10px 10px;
+        text-align: center;
+      }
+      .two {
+        border: 7px solid black;
+      }
+      .one {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        height: 500px;
+        width: 500px;
+      }
+      #three1 {
+        grid-column: 1/3;
+        grid-row: 1/3;
+        background-image: url(https://media.istockphoto.com/id/1644722689/photo/autumn-decoration-with-leafs-on-rustic-background.webp?b=1&s=170667a&w=0&k=20&c=aRdPqMJ6LUu_5l8yLzYEEh6dJqXsTBbNRUozBCwEKjs=);
+        background-size: cover;
+      }
+      #three2 {
+        grid-column: 3/5;
+        grid-row: 1/3;
+        background-image: url(https://www.befunky.com/images/prismic/82e0e255-17f9-41e0-85f1-210163b0ea34_hero-blur-image-3.jpg?auto=avif,webp&format=jpg&width=896);
+        background-size: cover;
+      }
+      #three3 {
+        grid-column: 5/6;
+        grid-row: 1/9;
+        background-color: black;
+        color: white;
+      }
+      #three4 {
+        grid-column: 1/2;
+        grid-row: 3/5;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzd-mchfk8QwVmNE4zW9gMRYoeXPyPi31Hbw&usqp=CAU);
+        background-size: cover;
+      }
+      #three5 {
+        grid-column: 2/4;
+        grid-row: 3/5;
+        background-image: url(https://media.istockphoto.com/id/609908294/photo/khao-yai-art-museum.jpg?s=612x612&w=0&k=20&c=xU2O88y8pQHXfnb0xxrTucPNnDuL3A5V5wFcr0e15OI=);
+        background-size: cover;
+      }
+      #three6 {
+        grid-column: 4/5;
+        grid-row: 3/5;
+        background-image: url(https://p0.pxfuel.com/preview/440/625/255/cosmos-flower-cosmos-plant-pink-flowers-pictures-of-flowers-royalty-free-thumbnail.jpg);
+        background-size: cover;
+      }
+      #three7 {
+        grid-column: 1/3;
+        grid-row: 5/7;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/61/Summer_Fruits.jpg);
+        background-size: cover;
+      }
+      #three8 {
+        grid-column: 3/5;
+        grid-row: 5/7;
+        background-image: url(https://res.cloudinary.com/ddxwdqwkr/image/upload/v1632081015/smashing-articles/q54webp.webp);
+        background-size: cover;
+      }
+      #three9 {
+        grid-column: 1/2;
+        grid-row: 7/9;
+        background-image: url(https://pixlr.com/images/index/ai-image-generator-one.webp);
+        background-size: cover;
+      }
+      #three10 {
+        grid-column: 2/4;
+        grid-row: 7/9;
+        background-image: url(https://images.fineartamerica.com/images-medium-large/monarch-butterfly-on-purple-dave-morin.jpg);
+        background-size: cover;
+      }
+      #three11 {
+        grid-column: 4/5;
+        grid-row: 7/9;
+        background-image: url(https://i.pinimg.com/236x/e5/89/1d/e5891d1910479adf7940cf9b21b528af.jpg);
+        background-size: cover;
+      }
+      a {
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>• Create image gallery using display grid with responsive</h1>
+    <div class="main">
+      <div class="main01">
+        <div class="two1" id="six">
+          <div class="one">
+            <div class="two" id="three1"></div>
+            <div class="two" id="three2"></div>
+            <div class="two" id="three3">
+              <h4>shutter</h4>
+              <h5>
+                <a href=""> Home </a>
+                <br />
+                photos
+                <br />
+                bio
+                <br />
+                blog
+                <br />
+                contact
+              </h5>
+            </div>
+            <div class="two" id="three4"></div>
+            <div class="two" id="three5"></div>
+            <div class="two" id="three6"></div>
+            <div class="two" id="three7"></div>
+            <div class="two" id="three8"></div>
+            <div class="two" id="three9"></div>
+            <div class="two" id="three10"></div>
+            <div class="two" id="three11"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
